@@ -1,0 +1,195 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background: #f0f2f5;
+    margin: 0;
+    font-size: 16px;
+}
+
+header {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    background: #D4C6E4;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    box-sizing: border-box;
+}
+
+header .header-left {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+header .header-left .logo {
+    height: 70px;
+}
+
+header .header-left h1 {
+    font-size: 25px;
+    color: #FFFFFF;
+    font-weight: 600;
+    margin: 0;
+}
+
+header .header-right {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+header .header-right span {
+    color: #FFFFFF;
+    font-weight: 500;
+    white-space: nowrap;
+}
+
+header .btn-logout {
+    background: white;
+    color: #AA73D9;
+    padding: 6px 12px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+    white-space: nowrap;
+}
+
+header .btn-logout:hover {
+    background: #f0e5ff;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 180px;
+    padding-bottom: 50px;
+}
+
+.titulo {
+    font-size: 35px;
+    color: #AA73D9;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.caixa {
+    background: white;
+    padding: 35px 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    width: 95%;
+    max-width: 1300px;
+}
+
+.btn-add {
+    background: #AA73D9;
+    color: white;
+    padding: 10px 16px;
+    border-radius: 9px;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+    margin-bottom: 15px;
+    transition: 0.3s;
+}
+
+.btn-add:hover {
+    background: #914ec1;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+    border-radius: 0;
+}
+
+th {
+    background: #AA73D9;
+    color: white;
+}
+
+td {
+    background: white;
+}
+
+th.col-nome, td.col-nome {
+    width: 25%;
+    text-align: left;
+    padding-left: 10px;
+}
+
+th.col-categoria, td.col-categoria {
+    width: 20%;
+    text-align: left;
+    padding-left: 10px;
+}
+
+th.col-preco, td.col-preco {
+    width: 8%;
+    text-align: center;
+    padding-left: 10px;
+}
+
+th.col-qtd, td.col-qtd {
+    width: 5%;
+    text-align: center;
+    padding-left: 10px;
+}
+
+th.col-descricao, td.col-descricao {
+    text-align: left;
+    padding-left: 10px;
+}
+
+th.col-acoes, td.col-acoes {
+    width: 12%;
+    min-width: 120px;
+    white-space: nowrap;
+}
+
+.btn-edit {
+    background: #CBA1E4;
+    color: white;
+    padding: 5px 7px;
+    border-radius: 5px;
+    margin-right: 1px;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: regular;
+    transition: 0.3s;
+}
+
+.btn-edit:hover {
+    background: #914ec1;
+}
+
+.btn-del {
+    background: #D96565;
+    color: white;
+    padding: 5px 7px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: regular;
+    transition: 0.3s;
+}
+
+.btn-del:hover {
+    background: #D14545;
+}
